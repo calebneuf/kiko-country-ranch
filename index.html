@@ -10,7 +10,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts/script.js"></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 </head>
 
 <body>
@@ -70,12 +69,15 @@
 
     </div>
 
-    
+
 
     <div class="benefits" style="position: relative;">
         <div class="wave">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
             </svg>
         </div>
         <div class="content">
@@ -154,8 +156,8 @@
     </div>
     <div class="purchase">
         <div class="purchase-img"></div>
-        <div class="content" >
-            
+        <div class="content">
+
             <div class="title">Interested in purchasing?</div>
             <a href="#" style="text-decoration: none;">
                 <div class="button">
@@ -218,14 +220,17 @@
     </div>
     <div class="location" style="position: relative;">
         <div class="wave2">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
             </svg>
         </div>
         <div class="content">
             <h1>CONTACT AND LOCATION</h1>
-            <div class="row" >
-                <div class="col" >
+            <div class="row">
+                <div class="col">
                     <div class="row">
                         <p>Located north of Calgary, Alberta between Olds and Sundre.</p>
                     </div>
@@ -239,7 +244,29 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div id="map"></div>
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=51.797068,%20-114.639373&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                href="https://123movies-to.org"></a><br>
+                            <style>
+                                .mapouter {
+                                    position: relative;
+                                    text-align: right;
+                                    height: 500px;
+                                    width: 500px;
+                                }
+                            </style><a href="https://www.embedgooglemap.net">embedded maps</a>
+                            <style>
+                                .gmap_canvas {
+                                    overflow: hidden;
+                                    background: none !important;
+                                    height: 500px;
+                                    width: 500px;
+                                }
+                            </style>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -261,10 +288,6 @@
             </div>
         </div>
     </div>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
-      defer
-    ></script>
 </body>
 
 </html>
